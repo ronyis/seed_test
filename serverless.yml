@@ -1,0 +1,9 @@
+service: seed-test
+
+provider:
+  name: AWS
+  runtime: python3.6
+  
+functions:
+  hello-world:
+    handler: handler.handler
