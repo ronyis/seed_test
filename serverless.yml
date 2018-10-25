@@ -2,8 +2,9 @@ service: seed-test
 
 provider:
   name: AWS
+  region: 'us-east-1'
   runtime: python3.6
-  
+
 functions:
   hello-world:
     handler: handler.handler
